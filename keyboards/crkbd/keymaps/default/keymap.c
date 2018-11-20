@@ -21,6 +21,8 @@ extern uint8_t is_master;
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
+
+//saya3
 #define _QWERTY 0
 #define _LOWER 3
 #define _RAISE 4
@@ -246,4 +248,3 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
   return true;
 }
-
